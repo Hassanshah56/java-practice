@@ -1,0 +1,62 @@
+
+// my second class  
+    // "use strict" treat all js code as newer version
+
+    // alert (3 + 3)  this not used in Node.js envirment but also used in browser 
+    
+//    we want to learn more code good so will going to ecma standard
+
+
+//    data types in javascript
+//    let a= "hassan"; string data type
+//    let b = 445 + 66; this is numeric data types
+//    let c = true; this is boolean data types
+//    bigint  we don 't used in programmer life but we can made a website like reddit or etc so we can used or add more number data
+//    null  standalone value
+//    underfined  if i will give him varaible but not give him value this is called underfined
+//    so we can used let state= null; this is called this value is empty
+//    symbol we can used in react this type of data are unique
+ 
+// let a = 6;
+// let b = 3;
+// console.log(a+b);
+
+console.log(typeof "hassan")
+print
+string
+
+if iw will print undefined output is {
+    console.log(typeof undefined)
+}
+print 
+underfined
+
+if iw will print null output is {
+    console.log(typeof object)
+}
+print 
+underfined
+
+
+
+
+             class 3
+
+let score = "33";     this is string value
+ let valueInnumber = String (score);
+ console.log(typeof valueInnumber);
+ print 
+ string
+ so i will print this 
+ let valueInnumber = string;
+ console.log(valueInnumber)
+ print 
+ function
+ 
+if console give me this output is called nan full form not a number
+
+
+let point= 88;
+ let pointa= 88;
+let value= point + pointa;
+ console.log(value)
