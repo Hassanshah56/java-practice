@@ -26,16 +26,16 @@
 
 // let ar = ["fdsrsdrsae","hhhhhhhhh","ikdsaihahtaotnoa","ojasdfaofnoianf"]
 // let jk = ar;
-// // ar.push(7);
-// // ar.push(88);
-// // ar.push(8);
-// // ar.pop(0)
-// // ar.unshift(9)
-// // ar.shift()
-// // console.log(jk);
+// ar.push(7);
+// // // ar.push(88);
+// // // ar.push(8);
+// // // ar.pop(0)
+// // // ar.unshift(9)
+// // // ar.shift()
+// console.log(jk);
 
-// // console.log(ar);
-// console.log(ar.indexOf("hhhhhhhhh"));
+// // // console.log(ar);
+// // console.log(ar.indexOf("hhhhhhhhh"));
 
 
 
@@ -47,24 +47,95 @@
 // console.log(myaar4);
 
 
-// let string = "hassan";
-// let string1 = string.substring(0,3);
-// console.log(string1);
+
+// // let string = "hassan";
+// // let string1 = string.substring(0,3);
+// // console.log(string1);
 
 
-// let numf = "hassan";
-// let new2 = numf.substr(0,3)
-// console.log(new2);
-// console.log(numf);
+// // let numf = "hassan";
+// // let new2 = numf.substr(0,3)
+// // console.log(new2);
+// // console.log(numf);
 
-// const str = 'Hello, world!';
+// // const str = 'Hello, world!';
 
-// console.log(str.substring(-3, 5)); // 'Hello' (negative startIndex treated as 0)
-// console.log(str.substr(-6, 5)); // 'world' (starts at 6th character from the end, extracts 5 cha
+// // console.log(str.substring(-3, 5)); // 'Hello' (negative startIndex treated as 0)
+// // console.log(str.substr(-6, 5)); // 'world' (starts at 6th character from the end, extracts 5 cha
 
 
-// let lower = "HASSAN";
-// console.log(lower.toLowerCase());
+// // let lower = "HASSAN";
+// // console.log(lower.toLowerCase());
 
-// let captal = "hassan";
-// console.log(captal.toUpperCase());
+// // let captal = "hassan";
+// // console.log(captal.toUpperCase());
+
+
+// // let array = [1,2,3,4]
+// // let new2 = array;
+// // new2.push(67)
+// // new2.pop()
+// // console.log(array.push(679));
+
+// // let like = [7,6,6,6] ;
+// // let hn= like.push(78);
+// // console.log(like);
+
+// let kj  = Boolean(1);
+// console.log(kj);
+
+// let array = [1,2,2,3]
+// let newarray = array.slice(0,3)
+// newarray = array.splice();
+// console.log(newarray);
+
+// let text = "hassana"
+// let newtext = text.replace("a","i");
+// console.log(newtext);
+
+
+
+// let lado1 = `lado`;
+// console.log(`iampagal ${lado1}`);
+
+// concat 
+// let text = "ilove";
+// let text1 = "you";
+// console.log(text.concat(text1));
+
+
+// trim 
+// let trim = "hello world";
+// let lie = trim.trim();
+// console.log(lie);
+
+
+// let kl = "        hello world     ";
+// console.log(kl.trim());
+
+
+// let start = "1";
+// let end = start.padStart(5,"3");
+// console.log(end);
+
+
+// let  num = "898";
+// let num1 = num.repeat(2,2);
+// console.log(num1);
+
+
+// let microsoft = "i am the owner of microsoft";
+// let syed = microsoft.replaceAll("i am the owner of", "i am the chaprasi of");
+// console.log(syed);
+
+
+// let microsoft1 = "i am the owner of microsoft";
+// let syed1 = microsoft1.replace("i am the owner of", "i am the chaprasi of");
+// console.log(syed1);
+
+
+
+// let aray = "i am chutia bc banda";
+// let aray1 = aray.split()
+// console.log(aray1);
+
