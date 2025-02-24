@@ -86,10 +86,99 @@
 // console.log(username("hassan"));
 
 
+// function num(jk1,jk2,...num4) {
+//     return num4
+// }
+// console.log(num(300, 400, 500 ,500));
+
+
+// let user ={
+//     username :"hassan",
+//     price : 214
+// }
+
+// function obj(anyobject) {
+//     console.log(`i name is ${anyobject.username} and my price is ${user.price}`);
+// }
+// obj(user)
+
+// anyobject=({
+//     username : "bc",
+//     price : 9090
+// })
+
+
+// let user = [ 300,40,555,88]
+// function getoutput(getarray) {
+//     return getarray[0]
+// }
+// // console.log(getoutput([122,122,122,122]));
+
+// function lk() {
+//     let username = "hassan";
+
+//     function qk() {
+//         let user1 = "kaber"
+//         console.log(username);
+        
+//     }
+    
+//     qk()
+// }
+// lk()
 
 
 
 
+let num1 = null;
+let num2 = null;
+
+
+// plus  
+
+function plus(num1 , num2 ) {
+    let operator = num1 + num2;
+    return operator
+}
+let plus1 =plus(7 + 3)
+console.log(plus1);
+ 
+
+
+
+// divide
+function divide(num1,num2) {
+    let operator = num1 / num2;
+    return operator
+}
+let divide1 = divide( 3 / 3 )
+console.log(divide1);
+
+
+
+
+// minus 
+function minus(num1,num2) {
+    let operator = num1 - num2;
+    return operator
+}
+let minus1 = minus( 4 - 6)
+console.log(minus1);
+
+
+
+
+// multi 
+function multi(num1,num2) { 
+    let operator = num1 * num2;
+    return operator
+}
+let multi1 = multi(1 *2)
+console.log(multi1);
+
+
+
+operator
 
 
 
