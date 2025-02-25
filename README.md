@@ -1,2 +1,2 @@
 #javascript my notes
-i want to all my basic of javascript 
+i want to all learn basic of javascript 
