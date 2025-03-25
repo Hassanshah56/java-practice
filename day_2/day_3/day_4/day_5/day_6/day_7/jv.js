@@ -354,13 +354,90 @@
 // })
 
 
-function checkNumber(num) {
-    if (num > 0) {
-        console.log(num + " is a positive number.");
-    } else if (num < 0) {
-        console.log(num + " is a negative number.");
-    } else {
-        console.log(num + " is zero.");
+// function checkNumber(num) {
+//     if (num > 0) {
+//         console.log(num + " is a positive number.");
+//     } else if (num < 0) {
+//         console.log(num + " is a negative number.");
+//     } else {
+//         console.log(num + " is zero.");
+//     }
+// }
+// // checkNumber()
+
+
+// let num = [1,2,3,4,5,6,7,8,9,10]
+// let newNums = num.map((num) =>{
+//     return num + 10
+// })
+// console.log(newNums);
+
+// let ok = [1,2,3,4,5,6,7,8,9,10]
+// let hue = ok.filter( (ok)=>{
+//     return ok < 10
+// })
+// console.log(hue);
+
+// let ink = [
+//     1,2,3,4,5,6,7,8,9,10
+// ]
+// let l = ink[1]
+// console.log(l);
+
+// let ink2 = {
+//     hassan : "hhh"
+// ,    jk : "hh"
+// }
+// let kl = ink2.hassan
+// console.log(kl);
+
+
+// let hmm =  new Map();
+// let sms = hmm.set("g",8)
+// console.log(hmm);
+
+
+let num = [1,2,3,4,5,6,7,8,9,10]
+let newq = num.map( (num)=>{
+    return num * 10
+}).map(
+    (num)=>{
+        return num + 1
     }
+)
+console.log(newq)
+
+
+
+
+let im = [1,2,3,4]
+let in1 = im.map(
+    (ls ,hk) =>{
+        console.log(`this is ${ls}and this is ${hk}`);
+        
+   return hk + ls
+    }
+)
+console.log(in1);
+
+
+
+let tata = [1,2,3,4]
+let asmatkhan = tata.filter(
+    (velo,zyn)=>{
+        console.log(`this is ${zyn}and this is ${velo}`);
+        
+    }
+)
+
+
+
+let loop = [1,2,3,4];
+
+for (let index = 0; index < loop.length; index++) {
+    const element = loop[index];
+    console.log(element);
+    
 }
-checkNumber()
+
+

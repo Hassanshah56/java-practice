@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventz</title> 
+</head>
+<body>
+    <div id="jk">
+        <li><img id="ok" src="view-source:https://www.pinterest.com/pin/40884309112973044/" alt="ok"></li>
+    </div>
+</body>
+<script>
+ let ko = document.getElementById('jk')
+ ko.style.background="brown"
+ ko.addEventListener('click',function (en) {
+    console.log("you are not good");    
+ })
+let oko = document.getElementById('ok')
+oko.style.background="yellow"
+oko.addEventListener('click',function (en) {
+console.log("this is image");
+en.stopPropagation()
+  
+ })
+
+
+</script>
+</html>

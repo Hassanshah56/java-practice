@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    body{
+        font-family: monospace;
+        font-size: larger;
+        background-color: #232352;
+        color: bisque;
+        
+    }
+    ul{
+        list-style: none;
+    }
+    </style>
+<body>
+    <ul class="parent">
+        <li class="day">one</li>
+        <li class="day">two</li>
+    </ul>
+</body>
+<script>
+    function ok(lang) {
+        let ok4 = document.createElement('li')
+        ok4.innerHTML = `${lang}`
+        document.querySelector('.parent').appendChild(ok4)
+    }
+ok("hh")
+ok("ok")
+let arr = [1,2,3,4,5,76,7,7,0,899,7]
+for (let index = 0; index < arr.length; index++) {
+    const element = arr[index];
+    console.log(ok(element));
+}
+</script>
+</html>
