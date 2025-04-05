@@ -1,5 +1,1 @@
-# java-practice
-# java-practice
-# java-practice
-# java-practice
-# java-practice
+# this is my javascript code that i will pratice 
